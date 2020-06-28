@@ -1,7 +1,10 @@
 
 let roundScore, activePlayer, scores, gameplaying;
+
+//Calling init Function
 init();
 
+//Random Dice generator
 
 document.querySelector(".btn-roll").addEventListener('click', function(){
     if(gameplaying){
@@ -47,9 +50,10 @@ document.querySelector(".btn-hold").addEventListener('click', function(){
 });
 
 //Start New Game 
-
 document.querySelector(".btn-new").addEventListener('click', init);
 
+
+// ======== Function Start ========= //
 
 // Next Player Function
 
