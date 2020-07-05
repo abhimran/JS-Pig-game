@@ -63,6 +63,7 @@ body {
     float: left;
     height: 600px;
     padding: 100px;
+    background: rgb(43, 37, 37);
 }
 
 
@@ -90,7 +91,7 @@ body {
     margin-bottom: 130px;
 }
 
-.active { background-color: #f7f7f7; }
+.active { background-color: #444; color: #EB4D4D }
 .active .player-name { font-weight: 300; }
 
 .active .player-name::after {
@@ -128,18 +129,19 @@ button {
     width: 200px;
     left: 50%;
     transform: translateX(-50%);
-    color: #555;
-    background: none;
+    color: rgb(236, 226, 226);
+    background-image: linear-gradient(90deg,#701b1b,#942020);
     border: none;
     font-family: Lato;
     font-size: 20px;
     text-transform: uppercase;
     cursor: pointer;
     font-weight: 300;
-    transition: background-color 0.3s, color 0.3s;
+    border: 1px solid #911616;
+    padding: 10px 20px;
 }
 
-button:hover { font-weight: 600; }
+button:hover { font-weight: 600; background: transparent; color: black;}
 button:hover i { margin-right: 20px; }
 
 button:focus {
